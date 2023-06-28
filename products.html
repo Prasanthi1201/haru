@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop now</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <!-- Cdn css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <!--cdn js-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- local css -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="website.js"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light  py-2 fixed-top" >
+        <div class="container-fluid">
+        
+          <img src="images/logo.png" alt="">
+          <!-- bold text in pink color-->
+
+          <a class="navbar-brand fw-bold  ms-1" href="haru.html">haru</a>
+
+          <!-- hamburger menu-->
+          <button class="navbar-toggler" 
+          type= "button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle Navigation">
+          <span ><i id="bar"class="fa fa-bars"></i></span>
+            
+          </button>
+            <!--<span class="navbar-toggler-icon"></span>  -->
+         
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-center">
+              
+              <li class="nav-item dropdown dropdown-hover position-static ms-3">
+                <a class="nav-link dropdown-toggle " href="#"  role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Buy</a>
+                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="dropdown-item-container col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                <div class="list-group list-group-flush">
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Games</a></li>
+                                        <li><a class="dropdown-item" href="#">PS4 Games</a></li>
+                                        <li><a class="dropdown-item" href="#">PS5 Games</a></li>
+                                        <li><a class="dropdown-item" href="#">Pre order Games</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item-container col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                <div class="list-group list-group-flush">
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Consoles</a></li>
+                                        <li><a class="dropdown-item" href="#">PS4 Console</a></li>
+                                        <li><a class="dropdown-item" href="#">PS5 Console</a></li>
+                                        <li><a class="dropdown-item" href="#">XBOX Console</a></li>
+                                        <li><a class="dropdown-item" href="#">Others</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item-container col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                <div class="list-group list-group-flush">
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                        <li><a class="dropdown-item" href="#">Controllers</a></li>
+                                        <li><a class="dropdown-item" href="#">Others</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-item-container col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                <div class="list-group list-group-flush">
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Wallets</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown dropdown-hover position-static ms-3">
+                <a class="nav-link dropdown-toggle " href="#"  role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sell</a>
+                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                    <div class="container-fluid">
+                        <div class="row ">
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/ps5.webp" class="img-fluid" />
+                            </div>
+                            <div>
+                              <p class="dun">PS5 CDs</p>
+                              <p class="boom">Explore now</p>
+                            </div>
+                          </div>
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/ps4 cds.webp" class="img-fluid" />
+                            </div>
+                            <div>
+                              <p class="dun" >PS4 CDs</p>
+                              <p class="boom" >Explore now</p>
+                            </div>
+                          </div>
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/consoles.webp" class="img-fluid" />
+                            </div><div>
+                            <p class="dun" >Consoles</p>
+                            <p class="boom" >Explore now</p>
+                            </div>
+                          </div>
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/controller.webp" class="img-fluid" />
+                            </div>
+                            <div>
+                              <p class="dun" >Controllers</p>
+                              <p class="boom" >Explore now</p>
+
+                            </div>
+                            
+                          </div>
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/Accessories_500x500.webp" class="img-fluid" />
+                            </div>
+                            <div>
+                              <p class="dun" >Accessories</p>
+                              <p class="boom" >Explore now</p>
+                            </div>
+                          
+                          </div>
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/RepairedConsoles.webp" class="img-fluid" />
+                            </div>
+                            <div>
+                              <p class="dun" >Sell Your Broken Consoles</p>
+                              <p class="boom" >Explore now</p>
+                            </div>
+                            
+                          </div>
+                          <div class=" img-dropdown-item-container col-md-4  mb-md-0"> 
+                            <div class="bg-image  mb-4">
+                              <img src="images/sell/Repaired_Controllers.webp" class="img-fluid" />
+                            </div>
+                            <div>
+                              <p class="dun" >Repaired Controllers</p>
+                              <p class="boom" >Explore now</p>
+
+                            </div>
+                            
+                          </div>
+                    </div>
+                </div>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link " href="https://play.google.com">Download App</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link " href="contact.html">Contact Us</a>
+              </li>
+
+
+            </ul>
+            <ul class="navbar-nav ms-auto  ">
+                <li class="nav-item ">
+                  <div class="search-box me-4">
+                    <input type="text" placeholder="Search to Buy" id="searchbar">
+                    <i class="fas fa-search" id="search-icon"></i>
+                  </div>                  
+                </li>
+                <li class="nav-item ms-2 me-3">
+                    <i class="fa fa-shopping-cart  "></i>
+                </li>
+                <li class="nav-item ms-2 ">
+                    <i class="fa-solid fa-circle-user  "></i>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <section id="home">
+      <div class="container-fluid">
+        <div class="content-wrapper"></div>
+          <h5 style="color: #080F1F;">New Arrivals</h5>
+          <h1><span>Best Prices</span> This Year</h1>
+          <h3 style="color: #080F1F;">Find all your art supply needs in one place!</h3>
+          <h5 style="color: #080F1F;">Discover Art Supplies.</h5>
+          <button type="click">Shop Now</button>
+      </div>
+      </div>
+    </section>
+    <!-- <section id="brand" class="container-fluid">
+      <div class="row m-0 py-5">
+        <img class="img-fluid col-lg-2 col-md-3 col-5" src="images/brands/cello.jpeg" alt="">
+        <img class="img-fluid col-lg-2 col-md-3 col-5" src="images/brands/classmate.jpeg" alt="">
+        <img class="img-fluid col-lg-2 col-md-3 col-5" src="images/brands/danielsmith.jpeg" alt="">
+        <img class="img-fluid col-lg-2 col-md-3 col-5" src="images/brands/faber-castell.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-3 col-5" src="images/brands/parker.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-3 col-5" src="images/brands/winsor_newton.jpg" alt="">
+      </div>
+    </section> -->
+
+
+    <section id="products">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class=" product-dropdown-item-container col-md-4  mb-md-0"> 
+                    <div class="bg-image  mb-4">
+                        <img src="images/sell/Accessories_500x500.webp" class="imag-fluid" />
+                        </div>
+                    <div>
+                        <p class="dun" >Headphones</p>
+                        <p class="boom" >Rs.3000</p>
+                    </div>
+                </div>
+                <div class=" product-dropdown-item-container col-md-4  mb-md-0"> 
+                    <div class="bg-image  mb-4">
+                        <img src="images/sell/ps5.webp" class="imag-fluid" />
+                        </div>
+                    <div>
+                        <p class="dun" >PS5</p>
+                        <p class="boom" >Rs.30000</p>
+                    </div>
+                </div>
+                <div class=" product-dropdown-item-container col-md-4  mb-md-0"> 
+                    <div class="bg-image  mb-4">
+                        <img src="images/sell/ps4 cds.webp" class="imag-fluid" />
+                        </div>
+                    <div>
+                        <p class="dun" >PS4</p>
+                        <p class="boom" >Rs.20000</p>
+                    </div>
+                </div>
+                <div class=" product-dropdown-item-container col-md-4  mb-md-0"> 
+                    <div class="bg-image  mb-4">
+                        <img src="images/sell/consoles.webp" class="imag-fluid" />
+                        </div>
+                    <div>
+                        <p class="dun" >Console</p>
+                        <p class="boom" >Rs.30000</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="website.js"></script>
+  </body>
+  
+</html>
